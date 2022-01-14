@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras geométricas | Curso práctico de Java Scritp</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+
+<!--Encabezado -->
+<header class="cabeza">
+    <!--Barra de navegacion-->
+    <br>
+    <h1 >Figuras geométricas</h1>
+</header>
+<body>
+    <div class="parent">
+        <div class="box" id="one">
+        
+            <h2> Calcula el área y perímetro de un cuadrado</h2>
+                <br>
+                <form>
+                    <label for="InputCuadrado">
+                        Escribe cuanto cada lado de tu cuadrado:
+                    </label>
+                    <input id="InputCuadrado" type="number" />
+                    <br>
+                    <br>
+                    <button class="uno" type="button" onclick="calcularperimetrocuadrado()">
+                        Calcular el perimetro    
+                    </button>
+                    
+                    <button class="dos" type="button" onclick="calcularareacuadrado()">
+                        Calcular el area    
+                    </button>
+                </form>
+        
+    </div>
+    <div class="box" id="two">
+        
+        <h2> Calcula el área y perímetro de un triángulo</h2>
+            <br>
+            <form>
+                <label for="Inputlado1">
+                    Escribe cuanto mide 1er lado del triángulo:
+                </label>
+                <input id="Inputlado1" type="number" />
+
+                <label for="Inputlado2">
+                    Escribe cuanto mide 2do lado del triángulo:
+                </label>
+                <input id="Inputlado2" type="number" />
+
+                <label for="Inputlado3">
+                    Escribe cuanto mide la base del triángulo:
+                </label>
+                <input id="Inputlado3" type="number" />
+
+                <label for="altura">
+                    Escribe cuanto mide la altura del triángulo:
+                </label>
+                <input id="altura" type="number" />
+                <br>
+                <br>
+                <button class="uno" type="button" onclick="calcularperimetrotriangulo()">
+                    Calcular el perimetro    
+                </button>
+                
+                <button class="dos" type="button" onclick="calcularareatriangulo()">
+                    Calcular el area    
+                </button>
+            </form>
+    
+    </div>
+    <div class="box" id="three">
+        
+        <h2> Calcula el área y perímetro de un círculo</h2>
+            <br>
+            <form>
+                <label for="radio">
+                    Escribe cuanto mide el radio del círculo:
+                </label>
+                <input id="radio" type="number" />
+                <br>
+                <br>
+                <button class="uno" type="button" onclick="calcularperimetrocirculo()">
+                    Calcular el perimetro    
+                </button>
+                
+                <button class="dos" type="button" onclick="calcularareacirculo()">
+                    Calcular el area    
+                </button>
+            </form>
+    </div>
+    <div class="box" id="four">
+        
+        <h2> Calcula la altura de un triángulo isoceles y equilátero</h2>
+            <br>
+            <form>
+                <label for="Inputladoa">
+                    Escribe cuanto mide 1er lado del triángulo:
+                </label>
+                <input id="Inputladoa" type="number" />
+
+                <label for="Inputladob">
+                    Escribe cuanto mide 2do lado del triángulo:
+                </label>
+                <input id="Inputladob" type="number" />
+
+                <label for="Inputladoc">
+                    Escribe cuanto mide la base del triángulo:
+                </label>
+                <input id="Inputladoc" type="number" />
+                <br>
+                <br>
+                <button class="tres" type="button" onclick="calcularaltura()">
+                    Calcular altura
+                </button>
+            </form>
+    </div>
+        
+</div>
+
+</body>
+<script src="./figuras.js"></script>
+
+</html>

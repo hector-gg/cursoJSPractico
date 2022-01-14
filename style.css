@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    }
+h2{
+    text-align: center;
+}
+.uno{
+    text-align: center;
+    position:absolute;
+    
+    height: 30px;
+    top: 200px;
+    left: 80px;
+}
+.dos{
+    text-align: center;
+    position:absolute;
+    
+    height: 30px;
+    top: 200px;
+    left: 300px;
+}
+.tres{
+    text-align: center;
+    position:absolute;
+    
+    height: 30px;
+    top: 200px;
+    left: 200px;
+}
+
+.cabeza{
+    background-color: grey;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    height: 70px;
+}
+.box{
+    display: inline-block;
+    background-color: gainsboro;
+}
+#one{
+    position: absolute;
+     font-size: 1.8rem;
+    border-radius:  10px;
+    left: 100px;
+    top: 100px;
+    width: 500px;
+    height: 250px;
+    text-align: left;
+    padding: 20px;
+
+}
+
+#two{
+    position: absolute;
+    font-size: 1.8rem;
+    border-radius:  10px;
+    left: 770px;
+    top: 100px;
+    width: 520px;
+    height: 250px;
+    text-align: left;
+    padding: 20px;
+}
+
+
+#three{
+    position: absolute;
+    font-size: 1.8rem;
+    border-radius:  10px;
+    left: 100px;
+    top: 400px;
+    width: 500px;
+    height: 250px;
+    text-align: left;
+    padding: 20px;
+}
+
+#four{
+    position: absolute;
+    font-size: 1.8rem;
+    border-radius:  10px;
+    left: 770px;
+    top: 400px;
+    width: 520px;
+    height: 250px;
+    text-align: left;
+    padding: 20px;
+}
+
